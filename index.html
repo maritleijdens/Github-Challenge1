@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Your Yourney to Mars</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" href="css/index.css" rel="stylesheet" />
+		<link type="text/css" href="css/timer.css" rel="stylesheet" />
+		<link type="text/css" href="css/brandstof.css" rel="stylesheet" />
+		<link type="text/css" href="css/drinken.css" rel="stylesheet" />
+		<link type="text/css" href="css/snelheid.css" rel="stylesheet" />
+		<link type="text/css" href="css/eten.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<header class="grid-item header">
+			<img src="afbeeldingen/SpaceX-Logo.png" id="logo">
+			<h1>Your Yourney to Mars</h1>
+		</header>
+
+		<div class="grid-item hoofdtimer">
+			<h2>Timer</h2>
+
+			<div>
+				<ul>
+					<li class="timer" data-percent="77"><span>30</span>dagen</li>
+				  	<li class="timer" data-percent="88"><span>21</span>uur</li>
+				  	<li class="timer" data-percent="60"><span>36</span>minuten</li>
+				</ul>
+			</div>
+			
+		</div>
+
+		<div class="grid-item hoofdsnelheid">
+			<h2>Snelheid</h2>
+			<ul class="chart-skills">
+				<li></li>
+
+				<li></li>
+
+				<li></li>
+
+				<li></li>
+			</ul>
+		</div>
+
+		<div class="grid-item afstand">
+			<h2>Afgelegde kilometers per dag</h2>
+				<div style="width:80%; margin-left: 10%">
+					<div>
+						<canvas id="canvas" height="350" width="600"></canvas>
+					</div>
+				</div>
+		</div>
+                
+
+  
+  
+
+		<div class="grid-item brandstof">
+			<section class="graph-two">
+			    <h2>Brandstof</h2>
+			    <div class="bar-graph-brandstof">
+			    
+				   	<div class="bar-brandstof">
+				    	<div class="bst1">
+				        	<p>Brandstoftank</p>
+				      	</div>
+				    </div>
+			    
+				  	<div class="bar-brandstof">
+						<div class="bst2">
+							<p>Brandstoftank 2</p>
+						</div>
+				    </div>
+			     
+				    <div class="bar-brandstof">
+				    	<div class="ebst">
+				        	<p>Externe brandstoftank</p>
+				      	</div>
+				    </div>
+			    
+				    <div class="bar-brandstof">
+				    	<div class="total">
+				    		<p>Totaal</p>
+				    	</div>
+				    </div>
+			   </div>  	    
+			</section> 
+		</div>
+
+		<div class="grid-item eten">
+			<section class="graph-two">
+			    <h2>Eten</h2>
+			    <div class="bar-graph-eten">
+			    
+				   	<div class="bar-eten">
+				    	<div class="groenten">
+				        	<p>2834 blikken groenten</p>
+				      
+				      	</div>
+
+				    </div>
+			    
+				  	<div class="bar-eten">
+						<div class="vlees">
+							<p>1627 stukken vlees</p>
+						</div>
+				    </div>
+			     
+				    <div class="bar-eten">
+				    	<div class="fruit">
+				        	<p>1874 blikken fruit</p>
+				      	</div>
+				    </div>
+			    
+				    <div class="bar-eten">
+				    	<div class="koek">
+				    		<p>59 snoepzakken</p>
+				    	</div>
+				    </div>
+
+				    <div class="bar-eten">
+				    	<div class="repen">
+				    		<p>2984 energie repen</p>
+				    	</div>
+				    </div>
+			   </div>  	    
+			</section> 
+		</div>
+
+		<div class="grid-item drinken">
+			<section class="graph-two">
+			    <h2>Drinken</h2>
+			    <div class="bar-graph-drinken">
+			    
+				   	<div class="bar-drinken">
+				    	<div class="water">
+				        	<p>9873 flessen water</p>
+				      	</div>
+				    </div>
+			    
+				  	<div class="bar-drinken">
+						<div class="sap">
+							<p>7534 flessen sap</p>
+						</div>
+				    </div>
+			     
+				    <div class="bar-drinken">
+				    	<div class="frisdrank">
+				        	<p>5998 flessen frisdrank</p>
+				      	</div>
+				    </div>
+			    
+				    <div class="bar-drinken">
+				    	<div class="melk">
+				    		<p>1967 flessen melk</p>
+				    	</div>
+				    </div>
+			   </div>  	    
+			</section>
+			
+		</div>
+
+
+		<script type="text/javascript" src="js/omgeving.js"></script>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"> </script>
+
+		<script type="text/javascript" src="js/voertuig.js"></script>
+
+		<script type="text/javascript" src="js/duratie-reis.js"></script>
+		
+    	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script> 
+
+
+
+	</body>
+</html>

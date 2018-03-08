@@ -1,0 +1,108 @@
+.eten {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.bar-graph-eten {
+	margin: 0 auto;
+  border-left: 4px solid #181c1f;
+	border-bottom: 4px solid #181c1f; 
+	width: 70%;
+	overflow: hidden;
+
+}
+
+.bar-graph-eten p {
+	padding: 20px;
+	color: #fff;
+	text-align: left;
+}
+
+@-webkit-keyframes slide-left {
+	0% {
+    	-webkit-transform: translateX(-200%);
+	}
+	
+	70% {
+		-webkit-transform: translateX(2%);
+  	}
+  	
+  	100% {
+	    -webkit-transform: translateX(0);
+  	}
+}
+
+@keyframes slide-left {
+  	0% {
+	    -webkit-transform: translateX(-200%);
+  	}
+  
+  	70% {
+	    -webkit-transform: translateX(2%);
+  	}
+  
+	100% {
+	    -webkit-transform: translateX(0);
+	}
+}
+
+.bar-eten {
+ 	background-color: #a7a9ac;
+}
+
+.groenten {
+	width: 80%;
+  	background-color: #095386; 
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.2s;
+ 	-webkit-animation-delay: 0.2s;
+}
+
+.vlees {
+  	width: 89%;
+  	background-color: #095386;
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+
+.fruit {
+  	width: 68%;
+  	background-color: #095386;
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.2s;
+   	-webkit-animation-delay: 0.2s;
+}
+
+.koek {
+  	width: 73%;
+  	background-color: #095386;
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+} 
+
+.repen {
+  	width: 82%;
+  	background-color: #095386;
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+} 
+
+
+/*-------- iPAD --------*/
+
+@media only screen and (min-width: 760px){
+  .bar-graph-eten {
+    margin-bottom: 10%
+  }
+
+}
+

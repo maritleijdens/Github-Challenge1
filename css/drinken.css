@@ -1,0 +1,89 @@
+.drinken {
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+.bar-graph-drinken {
+	margin: 0 auto;
+  	border-left: 4px solid #181c1f;
+  	border-bottom: 4px solid #181c1f; 
+  	width: 70%;
+	overflow: hidden;
+
+}
+
+.bar-graph-drinken p {
+	padding: 20px;
+	color: #fff;
+	text-align: left;
+}
+
+@-webkit-keyframes slide-left {
+	0% {
+    	-webkit-transform: translateX(-200%);
+	}
+	
+	70% {
+		-webkit-transform: translateX(2%);
+  	}
+  	
+  	100% {
+	    -webkit-transform: translateX(0);
+  	}
+}
+
+@keyframes slide-left {
+  	0% {
+	    -webkit-transform: translateX(-200%);
+  	}
+  
+  	70% {
+	    -webkit-transform: translateX(2%);
+  	}
+  
+	100% {
+	    -webkit-transform: translateX(0);
+	}
+}
+
+.bar-drinken {
+ 	background-color: #a7a9ac;
+}
+
+.water {
+	width: 74%;
+  	background-color: #095386; 
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.2s;
+ 	-webkit-animation-delay: 0.2s;
+}
+
+.sap {
+  	width: 83%;
+  	background-color: #095386;
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.3s;
+	-webkit-animation-delay: 0.3s;
+}
+
+.frisdrank {
+  	width: 95%;
+  	background-color: #095386;
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.2s;
+   	-webkit-animation-delay: 0.2s;
+}
+
+.melk {
+  	width: 98%;
+  	background-color: #095386;
+  	animation: slide-left 1s ease-in-out 1s both;
+	-webkit-animation: slide-left 1s ease-in-out 1s both;
+   	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+} 
+

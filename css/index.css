@@ -1,0 +1,221 @@
+* {
+	font-family: 'Helvetica Neue', 'Arial';
+}
+
+html, body {
+  	margin: 0;
+}
+
+body {
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+
+    grid-template-areas: 
+            "title"
+            "timer"
+            "snelheid"
+            "afstand"
+            "brandstof"
+            "eten"
+            "drinken"; 
+}
+
+.header{
+    grid-area: title;
+} 
+
+.hoofdtimer {
+	grid-area: timer;
+}
+
+.hoofdsnelheid {
+	grid-area: snelheid;
+}
+
+.afstand {
+	grid-area: afstand;
+}
+
+.brandstof {
+	grid-area: brandstof;
+}
+
+.eten {
+	grid-area: eten;
+}
+
+.drinken {
+	grid-area: drinken;
+}
+
+/*-------- HEADER --------*/
+
+header {
+	width: 100%;
+	background-color: #181c1f;
+	padding: 5px;
+}
+
+h1 {
+	color: #a7a9ac;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+#logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+	max-width: 75%;
+}
+
+h2 {
+	color: #181c1f;
+	margin-top: 15%;
+}
+
+
+
+
+
+/*-------- iPAD --------*/
+
+@media only screen and (min-width: 760px){
+
+	body{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		grid-template-areas: 
+			"title title"
+			"timer snelheid"
+			"afstand brandstof"
+			"eten drinken";
+	}
+
+	.header{
+	    grid-area: title;
+	} 
+
+	.hoofdtimer {
+		grid-area: timer;
+	}
+
+	.hoofdsnelheid {
+		grid-area: snelheid;
+	}
+
+	.afstand {
+		grid-area: afstand;
+	}
+
+	.brandstof {
+		grid-area: brandstof;
+	}
+
+	.eten {
+		grid-area: eten;
+	}
+
+	.drinken {
+		grid-area: drinken;
+	}
+
+
+	/*-------- HEADER --------*/
+
+	#logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto; 
+		max-width: 50%;
+	}
+
+	h2 {
+		margin-top: 10%;
+	}
+
+}
+
+/*-------- LAPTOP --------*/
+
+@media only screen and (min-width: 1204px){
+
+	body{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+
+		grid-template-areas: 
+			"title title title"
+			"timer snelheid afstand"
+			"brandstof eten drinken";
+	}
+
+	.header{
+	    grid-area: title;
+	} 
+
+	.hoofdtimer {
+		grid-area: timer;
+	}
+
+	.hoofdsnelheid {
+		grid-area: snelheid;
+	}
+
+	.afstand {
+		grid-area: afstand;
+	}
+
+	.brandstof {
+		grid-area: brandstof;
+	}
+
+	.eten {
+		grid-area: eten;
+	}
+
+	.drinken {
+		grid-area: drinken;
+	}
+	
+	/*-------- HEADER --------*/
+
+	#logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto; 
+		max-width: 30%;
+	}
+
+	h2 {
+		margin-top: 10%;
+	}
+}
+
+/*-------- DESKTOP --------*/
+
+@media only screen and (min-width: 1366px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
